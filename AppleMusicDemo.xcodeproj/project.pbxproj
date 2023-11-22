@@ -14,6 +14,7 @@
 		4C1027932B0E8BF400FA6E85 /* AppleMusicDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1027922B0E8BF400FA6E85 /* AppleMusicDemoTests.swift */; };
 		4C10279D2B0E8BF400FA6E85 /* AppleMusicDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10279C2B0E8BF400FA6E85 /* AppleMusicDemoUITests.swift */; };
 		4C10279F2B0E8BF400FA6E85 /* AppleMusicDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10279E2B0E8BF400FA6E85 /* AppleMusicDemoUITestsLaunchTests.swift */; };
+		4C1027AC2B0E8DD700FA6E85 /* NowPlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1027AB2B0E8DD700FA6E85 /* NowPlayingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4C1027982B0E8BF400FA6E85 /* AppleMusicDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMusicDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C10279C2B0E8BF400FA6E85 /* AppleMusicDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicDemoUITests.swift; sourceTree = "<group>"; };
 		4C10279E2B0E8BF400FA6E85 /* AppleMusicDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C1027AB2B0E8DD700FA6E85 /* NowPlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4C1027812B0E8BF300FA6E85 /* AppleMusicDemoApp.swift */,
 				4C1027832B0E8BF300FA6E85 /* ContentView.swift */,
+				4C1027AB2B0E8DD700FA6E85 /* NowPlayingView.swift */,
 				4C1027852B0E8BF400FA6E85 /* Assets.xcassets */,
 				4C1027872B0E8BF400FA6E85 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C1027AC2B0E8DD700FA6E85 /* NowPlayingView.swift in Sources */,
 				4C1027842B0E8BF300FA6E85 /* ContentView.swift in Sources */,
 				4C1027822B0E8BF300FA6E85 /* AppleMusicDemoApp.swift in Sources */,
 			);
